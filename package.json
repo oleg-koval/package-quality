@@ -16,17 +16,17 @@
 	},
 	"dependencies": {
 		"prototypes": "*",
-		"request": "*",
+		"request": "2.84.0",
 		"log": "*",
-		"async": "*",
+		"async": "2.5.0",
 		"testing": "*",
-		"mongodb": "*",
-		"moment": "*",
-		"express": "*",
-		"grunt": "*",
+		"mongodb": "2.2.30",
+		"moment": "2.19.3",
+		"express": "4.16.0",
+		"grunt": "1.0.3",
 		"canvas": "*",
 		"basic-request": "*",
-		"grunt-contrib-jshint": "*"
+		"grunt-contrib-jshint": "1.1.0"
 	},
 	"keywords": [
 		"package",
