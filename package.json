@@ -22,7 +22,7 @@
 		"testing": "*",
 		"mongodb": "*",
 		"moment": "*",
-		"express": "*",
+		"express": "4.15.5",
 		"grunt": "*",
 		"canvas": "*",
 		"basic-request": "*",
