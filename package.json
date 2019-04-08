@@ -23,8 +23,8 @@
 		"mongodb": "*",
 		"moment": "*",
 		"express": "*",
-		"grunt": "*",
-		"canvas": "*",
+		"grunt": "1.0.4",
+		"canvas": "1.6.10",
 		"basic-request": "*",
 		"grunt-contrib-jshint": "*"
 	},
