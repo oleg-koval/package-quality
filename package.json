@@ -20,7 +20,7 @@
 		"log": "*",
 		"async": "*",
 		"testing": "*",
-		"mongodb": "*",
+		"mongodb": "3.1.13",
 		"moment": "*",
 		"express": "*",
 		"grunt": "*",
