@@ -1,53 +1,57 @@
 {
-	"name": "package-quality",
-	"version": "0.2.3",
-	"description": "Estimate the quality of a package.",
-	"homepage": "https://github.com/alexfernandez/package-quality",
-	"contributors": [
-		"Alex Fernández <alexfernandeznpm@gmail.com>",
-		"Sergio García Mondaray <sgmonda@gmail.com>",
-		"Diego Lafuente <tufosa@gmail.com>"
-	],
-	"license": "MIT",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/alexfernandez/package-quality"
-	},
-	"dependencies": {
-		"prototypes": "*",
-		"request": "*",
-		"log": "*",
-		"async": "*",
-		"testing": "*",
-		"mongodb": "*",
-		"moment": "*",
-		"express": "*",
-		"grunt": "*",
-		"canvas": "*",
-		"basic-request": "*",
-		"grunt-contrib-jshint": "*"
-	},
-	"keywords": [
-		"package",
-		"quality",
-		"measurement",
-		"package quality",
-		"estimation",
-		"npm",
-		"registry",
-		"npm registry"
-	],
-	"engines": {
-		"node": "*"
-	},
-	"bin": {
-		"all": "bin/all.js"
-	},
-	"preferGlobal": true,
-	"scripts": {
-		"test": "node test.js",
-		"start": "node bin/app.js"
-	},
-	"private": false
+  "name": "package-quality",
+  "version": "0.2.3",
+  "description": "Estimate the quality of a package.",
+  "homepage": "https://github.com/alexfernandez/package-quality",
+  "contributors": [
+    "Alex Fernández <alexfernandeznpm@gmail.com>",
+    "Sergio García Mondaray <sgmonda@gmail.com>",
+    "Diego Lafuente <tufosa@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexfernandez/package-quality"
+  },
+  "dependencies": {
+    "prototypes": "*",
+    "request": "*",
+    "log": "*",
+    "async": "*",
+    "testing": "*",
+    "mongodb": "*",
+    "moment": "*",
+    "express": "*",
+    "grunt": "*",
+    "canvas": "*",
+    "basic-request": "*",
+    "grunt-contrib-jshint": "*",
+    "snyk": "^1.316.1"
+  },
+  "keywords": [
+    "package",
+    "quality",
+    "measurement",
+    "package quality",
+    "estimation",
+    "npm",
+    "registry",
+    "npm registry"
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "bin": {
+    "all": "bin/all.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "node test.js",
+    "start": "node bin/app.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "private": false,
+  "snyk": true
 }
