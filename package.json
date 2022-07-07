@@ -21,7 +21,7 @@
 		"async": "*",
 		"testing": "*",
 		"mongodb": "*",
-		"moment": "*",
+		"moment": "2.29.4",
 		"express": "*",
 		"grunt": "*",
 		"canvas": "*",
