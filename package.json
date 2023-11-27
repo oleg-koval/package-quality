@@ -23,10 +23,10 @@
 		"mongodb": "*",
 		"moment": "*",
 		"express": "*",
-		"grunt": "*",
+		"grunt": "1.2.0",
 		"canvas": "*",
 		"basic-request": "*",
-		"grunt-contrib-jshint": "*"
+		"grunt-contrib-jshint": "2.0.0"
 	},
 	"keywords": [
 		"package",
